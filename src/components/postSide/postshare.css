@@ -1,0 +1,64 @@
+html{
+    font-size: 16px;
+}
+
+.searchPost{
+    display: grid;
+    gap: 1rem;
+    background-color: rgb(247, 228, 245);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.profileimg{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.searchPost>div>input{
+    border-radius: 10px;
+    padding: 10px;
+    width: 90%;
+    margin-left: 10px;
+    height: 39px;
+    font-size: 17px;
+    border: none;
+    background-color: rgb(205, 199, 199);
+    outline: none;
+}
+
+.postOptions{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.options{
+    display: grid;
+    place-items: center;
+    font-size: 130%;
+}
+
+.post{
+    display: flex;
+    place-items: center;
+}
+
+.input>input{
+    width: 40%;
+}
+
+.imagePreview{
+    position: relative;
+}
+
+.imagePreview>img{
+    position: relative;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+

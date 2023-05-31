@@ -1,0 +1,1 @@
+export const Api_url="https://bakend-ara6.onrender.com"

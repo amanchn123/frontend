@@ -1,0 +1,44 @@
+.Logosearch{
+    display: grid;
+    grid-template-rows: 2px,auto ;
+    gap: 0%;
+    height: fit-content;
+    
+}
+.in{
+    display: flex;
+    margin-top: 0%;
+    height: fit-content;
+}
+
+.names{
+    /* margin-top: -200px; */
+
+    place-content: center;
+}
+.searchinput{
+    display: flex;
+    background-color: rgb(203, 195, 195);
+    border-radius: 10px;
+    padding: 5px;
+    height: 2.7rem;
+}
+
+.searchinput>input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.s-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(203, 211, 218);
+    border-radius: 10px;
+    width: 30px;
+}
+
+.s-icons:hover{
+    cursor: pointer;
+}

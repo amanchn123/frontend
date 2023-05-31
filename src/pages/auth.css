@@ -1,0 +1,6 @@
+.container{
+    display: grid;
+    justify-content: center;
+    place-content: center;
+    background-color: yellow;
+}
