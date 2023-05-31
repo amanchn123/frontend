@@ -68,7 +68,7 @@ const submitt=()=>{
               value={data.username}
               onChange={handleChange}
               className="form-control mt-1"
-              placeholder="Enter email"
+              placeholder="Enter username"
             />
           </div>
           <div className="form-group mt-3" style={{display:'flex'}}>
@@ -82,7 +82,7 @@ const submitt=()=>{
               value={data.firstName}
               onChange={handleChange}
               className="form-control mt-1"
-              placeholder="Enter password"
+              placeholder="Enter firstName"
             />
             </div> &nbsp;
             <div>
@@ -94,7 +94,7 @@ const submitt=()=>{
               value={data.lastName}
               onChange={handleChange}
               className="form-control mt-1"
-              placeholder="Enter password"
+              placeholder="Enter Lastname"
             />
             </div>
           </div>
